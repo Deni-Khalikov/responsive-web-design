@@ -1,2 +1,1 @@
-# responsive-web-design
-assignment 4
+[Live View](https://deni-khalikov.github.io/responsive-web-design/)
