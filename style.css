@@ -1,3 +1,133 @@
-body{
-  background-color: red;
+*{
+  margin: 0;
+  padding: 0;
 }
+
+.wrapper{
+  width: 100%;
+}
+
+.img-banner{
+  display: none;
+}
+
+.img-info {
+  width: 100%;
+}
+
+.img-info h1{
+  padding: 30px 30px 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 50px;
+  color: black;
+  line-height: 44px;
+}
+
+.img-info h2{
+  padding: 30px 30px 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  color: black;
+  line-height: 10x;
+}
+
+
+.img-info p{
+  padding: 30px 30px 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  color: gray;
+  line-height: 24px;
+}
+
+.img-pic {
+  width: 100%;
+}
+
+
+@media only screen and (max-width: 300px) {
+  body {
+    background-color: red;
+  }
+}
+
+
+@media only screen and (max-width: 768px) {
+
+  body {
+    background-color: green;
+  }
+
+  .img-banner{
+    display: block;
+    width: 100%;
+    padding-bottom: 30px;
+  }
+
+
+  .wrapper{
+    width: 600px;
+    margin: 0 auto;
+    
+  }
+
+  .img-info h1{
+    padding: 20px 30px 30px;
+  }
+  
+  .img-info h2{
+    padding: 30px 30px 20px;
+
+  }
+
+  
+  .img-info p{
+    padding: 20px 30px 30px;
+}
+
+.img-pic {
+ padding-top: 30px;
+}
+
+
+}
+
+@media only screen and (min-width: 768px) {
+
+ body{
+   background-color: lightblue;
+ }
+ 
+.wrapper{
+  width: 1000px;
+}
+
+.img-info {
+  width: 50%;
+  float: right;
+}
+
+.img-info h1{
+  padding: 20px 0px 0px 30px;
+
+}
+
+.img-info h2{
+  padding: 20px 0px 0px 20px;
+ 
+}
+
+.img-info p{
+  padding: 20px 30px 30px;
+ 
+}
+
+.img-pic {
+  padding-top: 0px;
+  width: 50px;
+  float: left;
+ }
+ 
+
+}
+
